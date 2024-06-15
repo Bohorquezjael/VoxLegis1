@@ -5,8 +5,9 @@ import { CandidActors } from "@app/canisters";
 
 export default function Notificaciones(){
 
-    return (    
-        <div>
+    return (   
+      <div className="flex h-screen">
+        
             <div className="w-64 bg-orange-500 text-white flex flex-col">
         <div className="flex items-center justify-center h-16 shadow-md">
           <img src="logo.png" alt="Logo" className="h-8" />
@@ -23,7 +24,12 @@ export default function Notificaciones(){
         </div>
       </div>
       
+      
+
+        <div className="flex-1 bg-orange-50 p-8">
+
         </div>
+      </div>
         
     );
   };
