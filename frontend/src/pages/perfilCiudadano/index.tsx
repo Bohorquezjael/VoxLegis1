@@ -50,7 +50,7 @@ export default function CreateProfileForm(){
           <Link href="/home" className="block px-4 py-2 text-white hover:bg-orange-600">Home</Link>
           <Link href="/explorar" className="block px-4 py-2 text-white hover:bg-orange-600">Explorar</Link>
           <Link href="/notificaciones" className="block px-4 py-2 text-white hover:bg-orange-600">Notificaciones</Link>
-          <Link href="/perfil1" className="block px-4 py-2 text-white hover:bg-orange-600">Perfil</Link>
+          <Link href="/perfilCiudadano" className="block px-4 py-2 text-white hover:bg-orange-600">Perfil</Link>
         </nav>
         <div className="p-4">
           <p className="text-sm">Made with love by VoxLegis</p>
@@ -63,17 +63,23 @@ export default function CreateProfileForm(){
       
         <div className="flex justify-center items-center">
           <div className="bg-white shadow-md rounded-lg p-6 w-2/3">
-            <h2 className="text-2xl font-bold mb-4">User Name</h2>
+          <div className="flex">
+          <h2 className="text-2xl font-bold mb-4">User Name</h2>
+          <button  className=" ml-auto bg-black text-white px-4 py-2 rounded">Editar</button>
+          </div>
+           
             <div className="mb-4">
-              <strong>Age:</strong> 25
+              <strong>Edad:</strong> 25
             </div>
             <div className="mb-4">
-              <strong>Name:</strong> John Doe
+              <strong>Nombre:</strong> John Doe <i>ciudadano</i>
             </div>
             <div className="mb-4">
               <strong>Bio:</strong> Una breve descripción de la persona para conocer su opinión como ciudadano.
             </div>
-            <button className="bg-black text-white px-4 py-2 rounded">Button</button>
+            <button  className="mb-4 bg-black text-white px-4 py-2 rounded">Historial de opiniones </button>
+           
+           
           </div>
           <div className="ml-8">
             <img src="usuario.jpg" alt="Profile" className="w-48 h-48 rounded-full object-cover" />
