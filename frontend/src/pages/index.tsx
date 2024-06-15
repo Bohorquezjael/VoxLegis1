@@ -74,7 +74,7 @@ export default function IcConnectPage() {
       {/* Sidebar */}
       <div className="w-64 bg-orange-500 text-white flex flex-col">
         <div className="flex items-center justify-center h-16 shadow-md">
-          <img src="/path-to-logo.png" alt="Logo" className="h-8" />
+          <img src="logo.png" alt="Logo" className="h-8" />
           <span className="ml-2 text-xl font-bold">VoxLegis</span>
         </div>
         <nav className="flex-grow mt-10">
@@ -106,7 +106,7 @@ export default function IcConnectPage() {
             <button className="bg-black text-white px-4 py-2 rounded">Button</button>
           </div>
           <div className="ml-8">
-            <img src="path-to-profile-pic.jpg" alt="Profile" className="w-48 h-48 rounded-full object-cover" />
+            <img src="usuario.jpg" alt="Profile" className="w-48 h-48 rounded-full object-cover" />
           </div>
         </div>
       </div>
