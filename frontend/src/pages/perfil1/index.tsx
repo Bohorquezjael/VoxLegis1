@@ -50,7 +50,7 @@ export default function CreateProfileForm(){
           <Link href="/home" className="block px-4 py-2 text-white hover:bg-orange-600">Home</Link>
           <Link href="/explorar" className="block px-4 py-2 text-white hover:bg-orange-600">Explorar</Link>
           <Link href="/notificaciones" className="block px-4 py-2 text-white hover:bg-orange-600">Notificaciones</Link>
-          <Link href="/perfil1" className="block px-4 py-2 text-white bg-orange-600">Perfil</Link>
+          <Link href="/perfil1" className="block px-4 py-2 text-white hover:bg-orange-600">Perfil</Link>
         </nav>
         <div className="p-4">
           <p className="text-sm">Made with love by VoxLegis</p>
