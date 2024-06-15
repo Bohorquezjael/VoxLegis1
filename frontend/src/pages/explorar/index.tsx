@@ -22,6 +22,23 @@ export default function Notificaciones(){
         </div>
       </div>
       
+      <div className="flex-1 bg-orange-50 p-5 pl-5" >
+          <div className=" justify-center items-center">
+            <div className="bg-white shadow-md rounded-lg p-6 w-4/5">
+              <div className="flex">
+                <div className="ml-8 w-1/4 ">
+                  <a href="http://sil.gobernacion.gob.mx/Librerias/pp_PerfilLegislador.php?SID=&Referencia=9227304"><img src="usuario.jpg" alt="Profile" className="rounded-full object-cover" /></a>
+                </div>
+                <div className=" w-3/4">
+                  <h2 className="text-2xl font-bold mb-4">Que adiciona diversas disposiciones al Código Civil Federal, en materia de arrendamiento de corto plazo.</h2>
+                  <h4>Yerico Abramo Masso</h4>
+                </div>
+              </div><br />
+              <div className="mb-4">
+                Se propone regular el arrendamiento de corto plazo de inmuebles, definido como aquel que dura menos de 28 días y se realiza a través de plataformas digitales. Introduce impuestos específicos, exige a los inmuebles una aprobación de protección civil por limitaciones de tiempo, requiere cámaras de seguridad externas, limita a tres el número de arrendamientos por propietario por municipio, y permite a propietarios que viven en el inmueble arrendar una parte sin restricciones.</div>
+            </div>
+          </div>
+        </div>
       
 
         <div className="flex-1 bg-orange-50 p-8">
